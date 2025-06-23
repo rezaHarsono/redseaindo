@@ -52,7 +52,7 @@
                             <p class="contact-phone">marketing@redseaindo.com</p>
                         </a>
                     </div>
-                    <a href="https://wa.me/+6281332929077" class="contact-link">
+                    {{-- <a href="https://wa.me/+6281332929077" class="contact-link">
                         <div class="icon-whatsapp"><svg class="w-10 " viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -70,12 +70,12 @@
                                 </g>
                             </svg></div>
                         <p class="contact-phone">+62 813 329 29077</p>
-                    </a>
+                    </a> --}}
                 </div>
             </div>
         </section>
 
         <x-to-top></x-to-top>
-        <x-wa></x-wa>
+        {{-- <x-wa></x-wa> --}}
         <x-footer></x-footer>
     </x-layout>

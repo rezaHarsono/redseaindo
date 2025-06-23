@@ -22,6 +22,7 @@
             </div>
         </div>
     </section>
+
     <section class="section-mission-vision">
         <div class="mission-vision-container">
             <div class="mission-vision-content">
@@ -45,7 +46,25 @@
             <div></div>
         </div>
     </section>
-    <section class="section-key-role">
+
+    <section class="section-permission">
+        <h1 class="section-title"><span class="highlight">License and Permit</span></h1>
+        <div class="col-2-permission">
+            <ul class="contact-phone permission-list">
+                <li class="permission-link"><a
+                        href="https://drive.google.com/file/d/1lf1tUlmpVqLtsxSD8bgddqHZtxnFWJrh/view?usp=sharing">Permit
+                        For Coal Transforpation and Sales</a></li>
+                <li class="permission-link"><a
+                        href="https://drive.google.com/file/d/16tNyU6cGLKFY5VBxES7N5kQE_uxe3-G1/view?usp=sharing">Company
+                        Registration</a></li>
+                <li class="permission-link"><a
+                        href="https://drive.google.com/file/d/1L7NFoJ0c5SqiX9E2EBXABkwvycv0ldtz/view?usp=sharing">Coal
+                        Export Permit</a></li>
+            </ul>
+        </div>
+    </section>
+
+    {{-- <section class="section-key-role">
         <h1 class="section-title"><span class="highlight">Key Role</span> Person</h1>
         <div id="carousel" class="carousel-container" data-carousel="static">
             <div class="carousel-wrapper">
@@ -84,8 +103,8 @@
                 </svg>
             </div>
         </div>
-    </section>
+    </section> --}}
     <x-to-top></x-to-top>
-    <x-wa></x-wa>
+    {{-- <x-wa></x-wa> --}}
     <x-footer></x-footer>
 </x-layout>

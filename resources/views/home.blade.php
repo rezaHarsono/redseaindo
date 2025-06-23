@@ -4,5 +4,5 @@
     <x-cards></x-cards>
     <x-to-top></x-to-top>
     <x-footer></x-footer>
-    <x-wa></x-wa>
+    {{-- <x-wa></x-wa> --}}
 </x-layout>

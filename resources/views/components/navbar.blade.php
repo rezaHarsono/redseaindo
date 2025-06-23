@@ -1,7 +1,7 @@
 <nav class="navbar">
     <div class="navbar-container" id="navbar-container">
         <a href="/" class="navbar-brand">
-            <img src="../../img/logo.png" class="navbar-logo" alt="Logo">
+            <img src="{{ asset('img/logo.png') }}" class="navbar-logo" alt="Logo">
         </a>
         <div class="navbar-toggle">
             <button id="menu-toggle" class="menu-button" aria-controls="navbar-sticky" aria-expanded="false">
@@ -15,16 +15,16 @@
         </div>
         <div class="navbar-menu" id="navbar-sticky">
             <ul class="navbar-nav">
-                <li><a href="/" class="nav-link">Home</a></li>
-                <li><a href="/about" class="nav-link">About</a></li>
-                <li><a href="/contact" class="nav-link">Contact</a></li>
-                <li>
+                <li><a href="/" class="nav-link {{ Request::is('/') ? 'active' : '' }}">Home</a></li>
+                <li><a href="/about" class="nav-link {{ Request::is('about') ? 'active' : '' }}">About</a></li>
+                <li><a href="/contact" class="nav-link {{ Request::is('contact') ? 'active' : '' }}">Contact</a></li>
+                {{-- <li>
                     <a class="nav-link download-link" onmouseover="changeText(this, 'Download our company profile')"
                         onmouseout="changeText(this, 'Download')"
-                        href="https://drive.google.com/file/d/1PGOcgwlMlLeUHy6ruj4U-TKARb76x7G-/view?usp=sharing">
+                        href="https://drive.google.com/file/d/1SLK4NYFXMxXF5AzTxSWW9-twvwt5k48n/view?usp=sharing">
                         Download
                     </a>
-                </li>
+                </li> --}}
             </ul>
         </div>
     </div>
@@ -32,21 +32,20 @@
     <div class="navbar-nav-mobile" id="navbar-mobile">
         <ul>
             <a href="/">
-                <li class="nav-link-mobile">Home</li>
+                <li class="nav-link-mobile {{ Request::is('/') ? 'active' : '' }}">Home</li>
             </a>
             <a href="/about">
-                <li class="nav-link-mobile">About</li>
+                <li class="nav-link-mobile {{ Request::is('about') ? 'active' : '' }}">About</li>
             </a>
             <a href="/contact">
-                <li class="nav-link-mobile">Contact</li>
+                <li class="nav-link-mobile {{ Request::is('contact') ? 'active' : '' }}">Contact</li>
             </a>
             <a href="https://drive.google.com/file/d/1PGOcgwlMlLeUHy6ruj4U-TKARb76x7G-/view?usp=sharing">
                 <li class="nav-link-mobile download-link" onmouseover="changeText(this, 'Download our company profile')"
                     onmouseout="changeText(this, 'Download')">
-
-                    Download</li>
+                    Download
+                </li>
             </a>
-
         </ul>
     </div>
 </nav>

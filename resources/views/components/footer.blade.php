@@ -23,22 +23,16 @@
                         </li>
                     </ul>
                 </div>
-                <div class="footer-section">
-                    <h2 class="footer-heading">Phone</h2>
-                    <ul class="footer-list">
-                        <li><a href="https://wa.me/+6281332929077" class="footer-link">+62 813 329 29077</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
+                {{-- <div class="footer-section">
                     <h2 class="footer-heading"><a
-                            href="https://drive.google.com/file/d/1PGOcgwlMlLeUHy6ruj4U-TKARb76x7G-/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1SLK4NYFXMxXF5AzTxSWW9-twvwt5k48n/view?usp=sharing"
                             class="footer-download">Download</a> our company profile</h2>
-                </div>
+                </div> --}}
             </div>
         </div>
         <hr class="footer-divider" />
         <div class="footer-bottom">
-            <span class="footer-copyright">© 2024 Redseaindo. All Rights Reserved.</span>
+            <span class="footer-copyright">© 2025 Redseaindo. All Rights Reserved.</span>
         </div>
     </div>
 </footer>
